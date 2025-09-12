@@ -51,11 +51,12 @@ Your pip command may have downloaded a corrupted file.
 
 ## Option 2.
 Try again with disabling cache:
- pip install --no-cache-dir face_recognition.
+ pip install --no-cache-dir face-recognition.
 
 ## Option 3.
-Try again without hash check (bypass the hash security): pip install face_recognition --no-deps
+Try again without hash check (bypass the hash security): pip install face-recognition --no-deps
 
+# If packages are installed and working properly:
 No camera detected → Check USB / enable Pi Camera in raspi-config.
 
 face_recognition install fails → You may need to build dlib manually.
