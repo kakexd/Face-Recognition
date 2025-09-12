@@ -62,7 +62,7 @@ No camera detected → Check USB / enable Pi Camera in raspi-config.
 face-recognition install fails → You may need to build dlib manually. **Check option 3.**
 
 LEDs not working → Double-check GPIO wiring and pins in lock_control.py.
-via Terminal use: ```raspi-gpio```
+via Terminal use: ```pinout```
 
 GUI too slow → Try running headless (without PyQt5) for performance.
 
