@@ -1,4 +1,7 @@
-# Face-Recognition
+# Install Dependencies
+sudo apt install -y python3-pip build-essential cmake libatlas-base-dev libjpeg-dev
+
+pip3 install opencv-python face-recognition PyQt5 RPi.GPIO numpy dlib
 
 # REQUIREMENTS
 
