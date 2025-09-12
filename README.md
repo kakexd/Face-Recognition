@@ -59,9 +59,10 @@ Try again without hash check (bypass the hash security): pip install face-recogn
 # If packages are installed and working properly:
 No camera detected → Check USB / enable Pi Camera in raspi-config.
 
-face_recognition install fails → You may need to build dlib manually.
+face-recognition install fails → You may need to build dlib manually. **Check option 3.**
 
 LEDs not working → Double-check GPIO wiring and pins in lock_control.py.
+via Terminal use: ```raspi-gpio```
 
 GUI too slow → Try running headless (without PyQt5) for performance.
 
