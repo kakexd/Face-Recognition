@@ -93,7 +93,8 @@ run:
 python3 headless_main.py
 
 
-# DOCX
+# DOCX doing it by hand
+https://gist.github.com/chirag773/b4c94b5bb4b2e7fcac0d21680c5d4492
 
 ``` sudo apt-get install build-essential cmake ```
  
