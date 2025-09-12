@@ -3,6 +3,20 @@
 
 ``` pip3 install opencv-python face-recognition PyQt5 RPi.GPIO numpy dlib ```
 
+
+Just in case, increase the operation system to use portion of the disk as virtual memory in case if RAM is exhausted.
+``` sudo nano /etc/dphys-swapfile ```
+
+Scroll down to the configuration which reads in example:
+CONF_SWAPSIZE=100 -> CONF_SWAPSIZE=1024
+
+And then update it to use 1024MB rather than 100MB:
+
+After you have updated the /etc/dphys-swapfile file, run the following two commands to restart the swap service:
+
+``` sudo /etc/init.d/dphys-swapfile stop ```
+``` sudo /etc/init.d/dphys-swapfile start ```
+
 # REQUIREMENTS
 
 Raspberry Pi (3B/4 recommended)
