@@ -91,3 +91,10 @@ Would you like me to also add a logging system (e.g., save access attempts with 
 # ~ Optional ~
 run:
 python3 headless_main.py
+
+
+#DOCX
+
+ sudo apt-get install build-essential cmake
+ sudo apt-get install libgtk-3-dev
+ sudo apt-get install libboost-all-dev
