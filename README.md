@@ -80,6 +80,9 @@ For the hash mismatch if someway and somehow you haven't managed to install face
 
 ```pip install --no-cache-dir --force-reinstall --index-url https://pypi.org/simple face_recognition_models==0.3.0 --break-system-packages```
 
+pip installs and we are flagging no cache usage, force reinstalling it directly by using URL pypi.org and choosing the face recognition model 0.3.0 and without hash checking.
+This works at least.
+
 # If packages are installed and working properly:
 No camera detected → Check USB / enable Pi Camera in raspi-config.
 
