@@ -74,6 +74,11 @@ Try again with disabling cache:
 ## Option 3.
 Try again without hash check (bypass the hash security): pip install face-recognition --no-deps
 
+## Option 4 if above fails.
+
+For the hash mismatch if someway and somehow you haven't managed to install face_recognition_models==0.3.0 use this:
+```pip install --no-cache-dir --force-reinstall --index-url https://pypi.org/simple face_recognition_models==0.3.0 --break-system-packages```
+
 # If packages are installed and working properly:
 No camera detected → Check USB / enable Pi Camera in raspi-config.
 
